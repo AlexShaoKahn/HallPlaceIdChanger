@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HallPlaceIdChanger:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HallPlaceIdChanger_jar</output-path>
+    <root id="archive" name="HallPlaceIdChanger.jar">
+      <element id="module-output" name="HallPlaceIdChanger" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/json-simple-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
