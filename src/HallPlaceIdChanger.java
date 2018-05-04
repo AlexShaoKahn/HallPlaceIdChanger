@@ -5,6 +5,8 @@ import java.io.*;
 
 public class HallPlaceIdChanger {
     public static void main(String[] args) throws IOException, ParseException {
+        //args=new String[]{"c:\\Temp\\JAVA\\test\\box2.json"};
+        //args=new String[]{"gui"};
         Hall hall = new Hall();
         if (args.length == 1 && args[0].toLowerCase().equals("gui"))
             SwingUtilities.invokeLater(() -> new ChangerWindow());

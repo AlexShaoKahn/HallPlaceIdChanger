@@ -38,7 +38,8 @@ public class Hall {
                 JSONObject jsonRowObject = new JSONObject(rowsIterator.next());
                 Row row = new Row();
                 row.setRowId((Long) jsonRowObject.get("rowId"));
-                row.setNumber(Long.toString((Long) jsonRowObject.get("number")));
+//                row.setNumber(Long.toString((Long) jsonRowObject.get("number")));
+                row.setNumber(jsonRowObject.get("number").toString());
                 JSONArray jsonPlacesArray = (JSONArray) parser.parse(jsonRowObject.get("places").toString());
                 Iterator<JSONObject> placesIterator = jsonPlacesArray.iterator();
                 while (placesIterator.hasNext()) {
